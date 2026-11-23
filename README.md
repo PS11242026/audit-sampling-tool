@@ -1,5 +1,9 @@
 # Audit Sampling & Risk Assessment Tool
 
+**[▶ Live demo](https://ps-audit-tool.streamlit.app/)**: fictional utility and
+synthetic ledgers, one-click sign-in (runs with `AUDIT_TOOL_DEMO=1`; resets on
+restart).
+
 A local, single-machine web tool for the statutory audit of a regulated
 electricity transmission utility: **SA 315** risk assessment, **SA 530**
 statistical sampling, **SA 505** balance confirmations, **SA 230** audit
