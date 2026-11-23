@@ -1,0 +1,16 @@
+# Shared by local runs and the hosted public demo (AUDIT_TOOL_DEMO=1, synthetic
+# data only).
+#
+# - toolbarMode "viewer" hides Streamlit's developer toolbar.
+# - Local runs bind to localhost via the --server.address flag in run_tool.bat,
+#   so the app is reachable only from this machine. To allow colleagues on a
+#   trusted office network, change that flag to 0.0.0.0 and share
+#   http://<your-ip>:8501. Never host a deployment with real client data in
+#   the cloud: the container's storage is wiped on restart, destroying the
+#   SQLite database and the SA 230 audit trail.
+
+[client]
+toolbarMode = "viewer"
+
+[browser]
+gatherUsageStats = false

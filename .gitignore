@@ -1,0 +1,10 @@
+# Client data and generated artefacts must never be committed
+data/
+demo/output/
+
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.streamlit/secrets.toml
